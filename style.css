@@ -4,29 +4,40 @@
 
 /* 1. Check the ratio of the background color and the color of the text.
     We want the ratio 4:1 or higher. What is it? */
-
+/* 4.14:1 */
 
 /* 2. Change the background color so that it contrasts well with the text. 
     What color do you think would provide a good contrast with red? 
     (Hint: Remember lighter colors contrast best with darker colors and vice versa). */
+/* white */
 
 /* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
 
 body {
     background-color: #d93f3f;
-    color: #eb2626;
+    color: #F7F7F7;
 }
 
 
 .food-pic {
-    width: 200px;
+    width: 300px;
 }
 
 .title {
     text-align: center;
-    color: #eb2626;
-    border: #eb2626 solid 5px;
+    color: #F7F7F7;
+    border: #280707 solid 5px;
     border-radius: 30px;
     font-family: 'Italianno', cursive;
     font-size: 90px;
+}
+
+#pastaRed {
+    max-height: 375px;
+    width: auto;
+}
+
+#drPepper {
+    max-height: 380px;
+    width: auto;
 }
